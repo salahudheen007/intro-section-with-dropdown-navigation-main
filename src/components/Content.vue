@@ -5,7 +5,7 @@
                 <picture class="ps-lg-5">
                     <source media="(max-width:400px)" :srcset="mobileBG">
                     <source media="(min-width:401px)" :srcset="desktopBG">
-                    <img :src="moblieBG" alt="webImage" style='height: 100%; width: 100%; object-fit: contain;'>
+                    <img :src="mobileBG" alt="webImage" style='height: 100%; width: 100%; object-fit: contain;'>
                 </picture>
             </div>
             <div class="col-lg order-lg-1 text-center text-lg-start pt-5">
@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import moblieBG from '../assets/images/image-hero-mobile.png'
+import mobileBG from '../assets/images/image-hero-mobile.png'
 import desktopBG from '../assets/images/image-hero-desktop.png'
 import databiz from '../assets/images/client-databiz.svg'
 import audiophile from '../assets/images/client-audiophile.svg'
